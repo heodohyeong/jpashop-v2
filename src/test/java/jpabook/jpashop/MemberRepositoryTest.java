@@ -1,5 +1,6 @@
 package jpabook.jpashop;
 
+import jpabook.jpashop.domain.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -36,12 +37,5 @@ public class MemberRepositoryTest {
         Assertions.assertThat(findMember).isEqualTo(member);
     }
 
-    @Test
-    @DisplayName("멤버 테스트2")
-    public void testMember2() throws Exception{
-
-
-
-    }
 
 }
